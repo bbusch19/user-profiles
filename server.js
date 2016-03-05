@@ -23,7 +23,7 @@ app.use(express.static(__dirname + '/public'));
 
 
 
-app.listen(9000, function() {
-  console.log('listening on port ' + 9000);
+app.listen(3000, function() {
+  console.log('listening on port ' + 3000);
   console.log('All clear, Captain!');
 })
